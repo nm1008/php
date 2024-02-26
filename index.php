@@ -71,7 +71,7 @@ require('./read.php');
 
 <body>
     <div class="main">
-        <form class="create-main" action="#" method="get">
+        <form class="create-main" action="/php-crud/create.php" method="post">
             <h3>Create User</h3>
             <input type="text" name="username" placeholder="Enter your username" required />
             <input type="password" name="password" placeholder="Enter your password" required />
