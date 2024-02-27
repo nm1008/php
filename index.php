@@ -100,8 +100,9 @@ require('./read.php');
                         <form action="#" method="get">
                             <input type="submit" name="edit" value="EDIT" />
                         </form>
-                        <form>
+                        <form action="/php-crud/delete.php" method="post">
                             <input type="submit" name="delete" value="DELETE" />
+                            <input type="hidden" name="deleteId" value="<?php echo $results['id']; ?>" />
                         </form>
                     </td>
                 </tr>
